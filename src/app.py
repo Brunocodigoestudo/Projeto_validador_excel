@@ -1,5 +1,3 @@
-
-
 from frontend import ExcelValidorUI
 from backend import process_excel
 

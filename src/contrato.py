@@ -16,9 +16,8 @@ class CategoriaEnum(str, Enum):
     Data: date 
     valor: Positive 
     Produto: str
-    Quant
+    Quant: Positive
     categoria: str
-
 """
 
 

@@ -21,14 +21,14 @@ def test_vendas_com_dados_validos():
     # A sintaxe **dados_validos é uma forma de desempacotamento de dicionários em Python.
     # O que isso faz é passar os pares chave-valor no dicionário dados_validos como argumentos nomeados para o construtor da classe Vendas.
 
-    venda = Vendas(**dados_validos)
+    Venda = Vendas(**dados_validos)
 
-    assert venda.Email == dados_validos["Email"]
-    assert venda.Data == dados_validos["Data"]
-    assert venda.Valor == dados_validos["Valor"]
-    assert venda.Produto == dados_validos["Produto"]
-    assert venda.Quantidade == dados_validos["Quantidade"]
-    assert venda.Categoria == dados_validos["Categoria"]
+    assert Venda.Email == dados_validos["Email"]
+    assert Venda.Data == dados_validos["Data"]
+    assert Venda.Valor == dados_validos["Valor"]
+    assert Venda.Produto == dados_validos["Produto"]
+    assert Venda.Quantidade == dados_validos["Quantidade"]
+    assert Venda.Categoria == dados_validos["Categoria"]
 
 # Testes com dados inválidos
 
