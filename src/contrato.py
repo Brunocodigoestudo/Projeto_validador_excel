@@ -6,9 +6,9 @@ from enum import Enum
 
 
 class CategoriaEnum(str, Enum):
-    categoria1 = "categoria1"
-    categoria2 = "categoria2"
-    categoria3 = "categoria3"
+    categoria1 = "A"
+    categoria2 = "B"
+    categoria3 = "C"
 
 
 """Arg:
